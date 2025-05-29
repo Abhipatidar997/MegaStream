@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> Log in / Sign up | MegaStream </title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="container">
+  <div class="box"></div>
+  <div class="container-forms">
+    <div class="container-info">
+      <div class="info-item">
+        <div class="table">
+          <div class="table-cell">
+            <p>Have an account?</p>
+            <div class="btn" onclick="toggleLogin()">Log in</div>
+          </div>
+        </div>
+      </div>
+      <div class="info-item">
+        <div class="table">
+          <div class="table-cell">
+            <p>Don't have an account?</p>
+            <div class="btn" onclick="toggleSignup()">Sign up</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-form">
+      <!-- Login Form -->
+      <form class="form-item log-in" onsubmit="handleLogin(event)">
+        <div class="table">
+          <div class="table-cell">
+            <input name="username" id="loginUsername" placeholder="Username" type="text" required />
+            <input name="password" id="loginPassword" placeholder="Password" type="password" required />
+            <button class="btn" type="submit">Log in</button>
+          </div>
+        </div>
+      </form>
+
+      <!-- Signup Form -->
+      <form class="form-item sign-up" onsubmit="handleSignup(event)">
+        <div class="table">
+          <div class="table-cell">
+            <input name="email" id="signupEmail" placeholder="Email" type="email" required />
+            <input name="fullName" id="signupName" placeholder="Full Name" type="text" required />
+            <input name="username" id="signupUsername" placeholder="Username" type="text" required />
+            <input name="password" id="signupPassword" placeholder="Password" type="password" required />
+            <button class="btn" type="submit">Sign up</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script src="./script.js"></script>
+</body>
+</html>
