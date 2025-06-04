@@ -92,13 +92,13 @@ https://your-deployed-link.com/
 
 ## 📸 Preview
 
-![Home Page](assets\Thumbnail\1.png)
-![Movies Page](assets/Thumbnail\2.png)
-![SEARCH Page](assets/Thumbnail\4.png)
-![Movies Page](assets/Thumbnail\3.png)
-![Log in Page](assets/Thumbnail\6.png)
-![Sign up Page](assets/Thumbnail\7.png)
-![Premium Page](assets/Thumbnail\5.png)
+![Home Page](assets/Thumbnail/1.png)
+![Movies Page](assets/Thumbnail/2.png)
+![SEARCH Page](assets/Thumbnail/4.png)
+![Movies Page](assets/Thumbnail/3.png)
+![Log in Page](assets/Thumbnail/6.png)
+![Sign up Page](assets/Thumbnail/7.png)
+![Premium Page](assets/Thumbnail/5.png)
 
 
 
