@@ -86,7 +86,7 @@ Open `index.html` in your browser.
 
 ## 🌐 Live Demo (Optional)
 > If hosted:
-https://your-deployed-link.com/
+https://abhipatidar997.github.io/MegaStream/
 
 ---
 
